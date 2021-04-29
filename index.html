@@ -152,5 +152,12 @@
     });
     </script>
     
+    <script>
+        if((navigator.userAgent.match(/Iphone/i)) || (navigator.userAgent.match(/iPod/i))) {
+            if (document.cookie.indexOf(«Iphone_redirect=false») == -1) {
+            window.location = http://digitechcr.github.io/Digitech/?Iphone&i=COMR;
+            }
+        }     
+    </script>
 </body>
 </html>
