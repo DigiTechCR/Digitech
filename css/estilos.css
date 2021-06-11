@@ -44,8 +44,8 @@ header{
 
 .hamburger{
     position: fixed;
-    top: 30px;
-    right: 30px;
+    top: 20px;
+    right: 20px;
     background: white;
     width: 40px;
     height: 40px;
@@ -98,6 +98,7 @@ header{
 .copy{
     font-weight: 300;
     font-size: 25px;
+    margin-top: 25px;
 }
 
 .subtitulo{
@@ -146,7 +147,7 @@ header{
 }
 
 .gallery{
-    background: rgba(168, 202, 218, 0.76);
+    background: rgba(200, 225, 231, 0.76);
     width: 100%;
 }
 
@@ -238,6 +239,7 @@ header{
 footer{
     background: #08416F;
     padding-bottom: 0.1px;
+    backdrop-filter: blur(10px);
 }
 
 .footer-content{
@@ -254,8 +256,6 @@ footer{
     color: cornsilk;
 
 }
-
-
 
 .brand{
     font-weight: 500;
